@@ -36,8 +36,7 @@ The test_signup() function sends a POST request to the /signup endpoint to creat
 The test_login() function sends a POST request to the /login endpoint with the user's credentials. If successful, it returns an authentication token (access_token) which is required for further API requests.
 
 4. Products 
-
-Test that a user can add a product to the product list with with the Authorization token (Bearer token) for authorization
+def add_one_product(token) function sends a POST request to the /products endpoint with the Authorization token (Bearer token) for authorization . If successful, it returns a message that the product has been added. 
 
 ## Sample Code 
 

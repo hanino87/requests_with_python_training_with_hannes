@@ -36,7 +36,11 @@ The test_signup() function sends a POST request to the /signup endpoint to creat
 The test_login() function sends a POST request to the /login endpoint with the user's credentials. If successful, it returns an authentication token (access_token) which is required for further API requests.
 
 4. Products 
-def add_one_product(token) function sends a POST request to the /products endpoint with the Authorization token (Bearer token) for authorization . If successful, it returns a message that the product has been added. 
+def add_one_product(token) function sends a POST request to the /products endpoint with the Authorization token (Bearer token) for authorization . If successful, it returns a message that the product has been added.
+
+## Database updates when test are running on the server 
+
+When you run the server and ther user is already added you will get response that user already exist when you try to added that user in the system. Try to test with diffrent users to login to avoid 400 bad request response from the client server. 
 
 ## Sample Code 
 

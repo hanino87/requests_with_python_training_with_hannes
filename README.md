@@ -1,4 +1,4 @@
-# API Testing with Pythons request module 
+# API Testing with Pythons requests module 
 
 This repository contains Python script that test a simple endpoints of a local API, such as `/health`, `/signup`, `/login`,. The tests are performed using the `requests` library.
 

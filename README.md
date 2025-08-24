@@ -8,7 +8,6 @@ To run the tests, make sure you have the following installed:
 
 - Python 3.x
 - `requests` library
-- uvicorn
 
 You can install the `requests` library using pip:
 
@@ -21,6 +20,8 @@ To run the tests, make sure you run the uvicorn server:
 ```shell
 uvicorn main:app --reload
 ```
+
+Fork Alejandros original repo create an own bransch in VS Code. Navigate to the backend folder and activate the virtual enviroment and add packages that`s needed. Create a own pythonfile in the backend folder for implement the code in scripts below. 
 
 
 
@@ -48,7 +49,7 @@ When you run the server and ther user is already added you will get response tha
 
 import requests
 
-# Base URL variable for your API (local development server) 
+# Base URL variable for your API (local development server that comes with Uvicorn) 
 BASE_URL = "http://127.0.0.1:8000"
 
 # User credentials variables for testing signup and login you can switch to other USERNAME/PASSWORD IF YOU WANT 
@@ -182,3 +183,20 @@ def add_one_product(token): # token is used and taken from the login_test above
         
 
 ```
+
+5## How to run the tests ? 
+
+Be in the backend folder where your own pythonfile with the requests are 
+
+run following command. It´can be python3 instead of python for linux/macOS users 
+
+```py 
+
+python (filename of python)
+
+python3 (filename of python)
+
+```
+
+
+

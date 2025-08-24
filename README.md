@@ -8,13 +8,18 @@ To run the tests, make sure you have the following installed:
 
 - Python 3.x
 - `requests` library
+- Postman
+- Uvicorn
+- FastApi 
 
-You can install the `requests` library using pip:
+You can install the `requests` Uvicorn, FastAPI library using pip:
 
 ```shell
-pip install requests
+pip install requests Uvicorn FastApi
 
 ```
+Download Postman https://www.postman.com
+
 To run the tests, make sure you run the uvicorn server:
 
 ```shell

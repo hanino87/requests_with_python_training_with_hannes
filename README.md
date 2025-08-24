@@ -191,7 +191,7 @@ def add_one_product(token): # token is used and taken from the login_test above
 
 ## How to run the tests ? 
 
-Be in the backend folder where your own pythonfile with the requests are 
+create a pythonfile and paste the code above in the file. 
 
 run following command. It´can be python3 instead of python for linux/macOS users 
 

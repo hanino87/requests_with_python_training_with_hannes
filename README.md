@@ -26,7 +26,9 @@ To run the tests, make sure you run the uvicorn server:
 uvicorn main:app --reload
 ```
 
-Fork Alejandros original repo create an own bransch in VS Code. Navigate to the backend folder and activate the virtual enviroment and add packages that`s needed. Create a own pythonfile in the backend folder for implement the code in scripts below. 
+Fork Alejandros original repo https://github.com/alejovicu/nackademin_testautomatisering_kvalit24 
+
+create an own bransch in VS Code. Navigate to the backend folder and activate the virtual enviroment and add packages that`s needed. Create a own pythonfile in the backend folder for implement the code in scripts below. 
 
 
 

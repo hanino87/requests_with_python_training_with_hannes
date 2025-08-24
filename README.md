@@ -9,8 +9,6 @@ To run the tests, make sure you have the following installed:
 - Python 3.x
 - `requests` library
 - uvicorn
-- postman
-- 
 
 You can install the `requests` library using pip:
 

@@ -189,7 +189,7 @@ def add_one_product(token): # token is used and taken from the login_test above
 
 ```
 
-5## How to run the tests ? 
+## How to run the tests ? 
 
 Be in the backend folder where your own pythonfile with the requests are 
 

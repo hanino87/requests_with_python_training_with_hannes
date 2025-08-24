@@ -103,8 +103,8 @@ def test_login():
     """
     login_url = f"{BASE_URL}/login"
     login_data = {
-        "username": "katten",
-        "password": "slav"
+        "username": USERNAME,
+        "password": PASSWORD
     }
     
     response = requests.post(login_url, data=login_data)
